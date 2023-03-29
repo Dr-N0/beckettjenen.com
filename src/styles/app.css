@@ -1,0 +1,29 @@
+@import "./jetbrains-mono.css";
+@import "./shiki.css";
+
+:root {
+	font-family: "JetBrains Mono", monospace;
+	margin: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		background-color: #242424;
+		color: #dbe5f0;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		background-color: #FFFFF8;
+		color: black;
+	}
+
+	a {
+		color: black;
+	}
+}

@@ -1,0 +1,47 @@
+article a {
+	font-weight: normal;
+	text-decoration: underline;
+	text-decoration-color: var(--accentColor);
+	text-underline-offset: 2.0px;
+	text-decoration-thickness: 0.2em;
+	text-decoration-skip-ink: none;
+}
+
+article h1 {
+	margin-bottom: 0;
+}
+
+article h3 {
+	color: var(--accentColor);
+}
+
+article h4 {
+	color: var(--accentColor);
+}
+
+code {
+	padding: 1.5px 5.0px;
+	font-family: "Jetbrains Mono", monospace;
+	background-color: #353940;
+	border-radius: 8px;
+}
+
+.front-matter {
+	margin-bottom: 30px
+}
+
+.post-title {
+	margin-bottom: 10px;
+}
+
+.post-date-posted {
+	margin-top: 10px;
+	font-size: 85%;
+}
+
+
+@media (prefers-color-scheme: light) {
+	code {
+		background-color: #d3d3d3;
+	}
+}
