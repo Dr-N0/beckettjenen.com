@@ -1,5 +1,6 @@
 // See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
+import './styles/app.css'
 declare global {
 	namespace App {
 		// interface Error {}
