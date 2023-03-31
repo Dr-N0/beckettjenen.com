@@ -23,13 +23,16 @@
 		}]
 	}}
 />
+
+<!-- <h1> Dr. No</h1> -->
+
 <main>
 	<h1>About</h1>
 	<div>
-		<p>Hi I'm Beckett <span>👋🏻</span></p>
+		<p>Hi I'm Beckett</p>
 		<p>I'm a full stack developer and fourth year Computer Science Major (Computing Security Minor) at the <a id="rit-url" href="https://rit.edu" target="_blank"> Rochester Institute of Technology</a>.</p>
 		<p>
-			At RIT, I'm involved with <a id="csh-url" href="https://csh.rit.edu" target="_blank">Computer Science House</a> where I help manage our public facing websites and our <a id="csh-url" href="https://jumpstart.csh.rit.edu" target="_blank"> public facing dashboard.</a>
+			At RIT, I'm involved with <a id="csh-url" href="https://csh.rit.edu" target="_blank">Computer Science House</a> where I help manage our public facing websites and our <a id="blue-url" href="https://jumpstart.csh.rit.edu" target="_blank"> public facing dashboard.</a>
 		</p>
 
 		<p>In my free time, I can be found running, cycling or caring for my fish (I have 4 Black Phantom Tetra and 4 Neon Tetras).</p>
@@ -44,7 +47,7 @@
 
 		<h1>Experience</h1>
 		<p>If you would prefer to view my resume, you can find that
-			<a id="resume-url" href={`https://resume.com`} target="_blank">here</a>
+			<a id="blue-url" href={`https://resume.com`} target="_blank">here</a>
 		</p>
 
 		<p>A brief overview of my work experience as a Software Engineer:</p>
@@ -128,7 +131,7 @@
 		text-decoration-thickness: 0.1em;
 		text-decoration-skip-ink: none;
 	}
-	#resume-url {
+	#blue-url {
 		text-decoration: underline;
 		text-decoration-color: #1FA4DB;
 		text-underline-offset: 2.0px;
