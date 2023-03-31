@@ -1,18 +1,25 @@
 {
 	"programs": [
 			{
-				"projectName": "WillowTree (Upcoming)",
-				"projectLink": "https://www.willowtreeapps.com/",
-				"projectSkills": "Software Engineering Intern",
-				"photoSrc": "companies/willowtree.png",
-				"description": "During the summer of 2023 I will have the opportunity to work with a team of talented engineers to create polished and user focused mobile apps."
+				"projectName": "PC-TV",
+				"projectLink": "https://github.com/Dr-N0/PC-TV",
+				"projectSkills": ["REACTJS","ELECTRON","NODEJS","MONGODB","GRAPHQL","FLUTTER"],
+				"photoSrc": "",
+				"description": "An Electron desktop app that let users control their computer with a phone. Uses Flutter to send HTTP requests using an intuitive user interface."
 			},
 			{
-				"projectName": "WillowTree (Upcoming)",
-				"projectLink": "https://www.willowtreeapps.com/",
-				"projectSkills": "Software Engineering Intern",
-				"photoSrc": "companies/willowtree.png",
-				"description": "During the summer of 2023 I will have the opportunity to work with a team of talented engineers to create polished and user focused mobile apps."
+				"projectName": "Jumpstart",
+				"projectLink": "https://github.com/Dr-N0/Jumpstart",
+				"projectSkills": ["FLASK", "JAVASCRIPT", "WEB-APIS", "RASPBERRY-PI", "DOCKER"],
+				"photoSrc": "",
+				"description": "Used Flask and Javascript to create a dashboard for an elevator lobby. Bonus features include real-time weather and server dashboard updates along with google calendar API and slack API integration."
+			},
+			{
+				"projectName": "Auto React",
+				"projectLink": "https://github.com/Dr-N0/AutoReact",
+				"projectSkills": ["NODE.JS", "MONGODB", "SLACK-APIS"],
+				"photoSrc": "",
+				"description": "Created a Slack Bot that auto reacts to user’s message after given user input. It stored entries and usernames in a MongoDB database to keep track of personalization."
 			}
 	]
 }

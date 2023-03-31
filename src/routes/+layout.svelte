@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+	import Footer from './Footer.svelte';
 	import '../styles/app.css';
 </script>
 
@@ -9,19 +9,20 @@
 </svelte:head>
 
 <div class="circle-wrapper">
-    <div class="white-circle" style="order: 1;"></div>
-    <div class="white-circle" style="order: 2;"></div>
-    <div class="white-circle" style="order: 3;"></div>
-    <div class="white-circle" style="order: 4;"></div>
-    <div class="big-white-circle"></div>
+    <div class="circle" style="order: 1;"></div>
+    <div class="circle" style="order: 2;"></div>
+    <div class="circle" style="order: 3;"></div>
+    <div class="circle" style="order: 4;"></div>
+    <div class="big-circle"></div>
 </div>
 
 <main>
     <slot/>
 </main>
 
-<style>
+<Footer />
 
+<style>
     .circle-wrapper {
         position: fixed;
         top: -50px; right: 0; bottom: 0; left: 0;
@@ -34,7 +35,7 @@
         gap: 20px;
     }
     
-    .white-circle {
+    .circle {
         display: flex;
         height: 100px;
         width: 100px;
@@ -57,8 +58,9 @@
     .circle-wrapper div:nth-child(3) { animation-delay: 1.10s }
     .circle-wrapper div:nth-child(4) { animation-delay: 1.55s }
     .circle-wrapper div:nth-child(5) { animation-delay: 2.05s }
+    .circle-wrapper div:nth-child(6) { animation-delay: 2.05s }
 
-    .big-white-circle {
+    .big-circle {
         display: flex;
         order: 5;
         height: 100px;
@@ -92,10 +94,12 @@
         0% {
             opacity: 0;
         }
+
         50% {
             opacity: 0;
         }
-        100% {
+
+        60% {
             opacity: 1;
         }
     }
@@ -105,10 +109,12 @@
             visibility: visible;
             opacity: 0;
         }
+
         50% {
             opacity: 1;
             visibility: visible;
         }
+
         100% {
             opacity: 1;
             visibility: hidden;
@@ -123,15 +129,18 @@
             visibility: visible;
             opacity: 0;
         }
+
         10% {
             position: fixed;
             top: calc(50% - 75px);
             left: calc(90% - 75px);
             opacity: 1;
         }
+
         60% {
             opacity: 0.5;
         }
+
         99% {
             position: fixed;
             top: calc(50% - 75px);
@@ -140,6 +149,7 @@
             visibility: visible;
             opacity: 0;
         }
+
         100% {
             position: fixed;
             top: calc(50% - 75px);

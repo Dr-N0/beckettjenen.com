@@ -4,7 +4,7 @@
 		projectLink: "https://apple.com",
 		projectSkills: "Software Engineering Intern",
 		photoSrc: "src/assets/bryx.jpg",
-		description: ""
+		description: "asdf"
 	}
 </script>
 
@@ -13,12 +13,11 @@
 		src={programs.photoSrc}
 		alt={`${programs.projectName}'s logo`}
 		width=100px height=100px>
-	<h3><a href="{programs.projectLink}">{programs.projectName}</a> | {programs.projectSkills}</h3>
+	<h3><a href="{programs.projectLink}">{programs.projectName}</a> | {#each programs.projectSkills as skills} <i class="skills">{skills}</i> {/each}</h3>
 	<slot/>
 </div>
 
 <style>
-
 	.projects-card {
 		display: block;
 		min-height: 100px;
@@ -43,6 +42,10 @@
 	.projects-card {
 		margin-bottom: 40px;
 		text-align: left;
+	}
+
+	.skills {
+		font-size: 90%;
 	}
 
 	@media only screen and (max-width: 480px) {

@@ -1,37 +1,37 @@
 {
 	"companies": [
 			{
-				"companyName": "WillowTree (Upcoming)",
-				"companyWebsite": "https://www.willowtreeapps.com/",
+				"companyName": "Enel X (Upcoming)",
+				"companyWebsite": "https://www.enelx.com/n-a/en",
 				"jobTitle": "Software Engineering Intern",
-				"photoSrc": "companies/willowtree.png",
-				"description": "During the summer of 2023 I will have the opportunity to work with a team of talented engineers to create polished and user focused mobile apps."
+				"photoSrc": "companies/enelx.png",
+				"description": "During the summer of 2023 I will have the opportunity to work with a team of talented engineers to work on effective UI/UX code and design."
 			},
 			{
-				"companyName": "Bryx",
-				"companyWebsite": "https://bryx.com",
-				"jobTitle": "iOS Engineering Intern",
-				"photoSrc": "companies/bryx.jpg",
-				"description": "Worked with a small team of iOS developers to add new features and improve reliability of Bryx 911. Bryx 911 is an app that is relied on by tens of thousands of first responders to do their jobs."
+				"companyName": "Constant Contact",
+				"companyWebsite": "https://constantcontact.com",
+				"jobTitle": "Software Engineering Intern",
+				"photoSrc": "companies/ctct.jpg",
+				"description": "Developed full stack work on a team focused primarily on UI and UX (TESLA Team). On this team, I built multiple core features for a major release."
 			},
 			{
-				"companyName": "Apple",
-				"companyWebsite": "https://apple.com",
+				"companyName": "Axate",
+				"companyWebsite": "https://axate.com",
 				"jobTitle": "Software Engineering Intern",
-				"photoSrc": "companies/apple.jpg",
-				"description": "Worked on a team that was in charge of the tvOS system shell. I participated in prototyping and design of a really cool new feature but I can't say much more 🤐"
+				"photoSrc": "companies/axate.jpg",
+				"description": "Fashioned new features for Axate's primary application while working on a team of three. Designed and implemented changes to the front page of their primary application."
 			},
 			{
-				"companyName": "Macro",
-				"companyWebsite": null,
-				"jobTitle": "Software Engineering Intern",
-				"photoSrc": "companies/macro.jpg",
-				"description": "Prototyped an iOS version of the Macro Zoom client that offered a drastically improved user experience compared to the default Zoom iOS app."
+				"companyName": "Slomins",
+				"companyWebsite": "https://oil.slomins.com",
+				"jobTitle": "Full Time Technology Department Engineer",
+				"photoSrc": "companies/slomins.jpg",
+				"description": ""
 			},
 			{
 				"companyName": "Bio Behavioral Therapeutics",
 				"companyWebsite": "http://jpedrazamd.com/",
-				"jobTitle": "Freelance iOS Developer",
+				"jobTitle": "Freelance Web Developer",
 				"photoSrc": "companies/bbt.jpg",
 				"description": "Designed and programmed native iOS and Android apps that are relied on by patients and providers to ask questions and submit refill requests to their practitioner."
 			}
