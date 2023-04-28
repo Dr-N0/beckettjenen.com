@@ -69,11 +69,11 @@
         min-width: 100px;
         border-radius: 100%;
         background-color: white;
-        -webkit-animation: circleAnimationTwo ease 5.00s;
-        -moz-animation: circleAnimationTwo ease 5.00s;
-        -ms-animation: circleAnimationTwo ease 5.00s;
-        -o-animation: circleAnimationTwo ease 5.00s;
-            animation: circleAnimationTwo ease 5.00s;
+        -webkit-animation: circleAnimationTwo ease 4.00s;
+        -moz-animation: circleAnimationTwo ease 4.00s;
+        -ms-animation: circleAnimationTwo ease 4.00s;
+        -o-animation: circleAnimationTwo ease 4.00s;
+            animation: circleAnimationTwo ease 4.00s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         transition: 2s ease;
@@ -95,7 +95,7 @@
             opacity: 0;
         }
 
-        50% {
+        45% {
             opacity: 0;
         }
 

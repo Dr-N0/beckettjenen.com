@@ -25,8 +25,9 @@
 />
 
 <main>
-	<h1>About</h1>
 	<div>
+	<section>
+		<h1>About</h1>
 		<p>Hi I'm Beckett</p>
 		<p>
 			I'm a full stack developer and fourth year Computer Science Major (Computing Security Minor) at the <a id="rit-url" href="https://rit.edu" target="_blank"> Rochester Institute of Technology</a>.
@@ -38,14 +39,15 @@
 		<p>Outside of work I play competitive video games, hike, practice piano, and fence for RIT!</p>
 
 		<hr />
-		
+
 		<p>You can find me in the following places around the web:</p>
 		<ul id="social-list">
 			<li><img class="social-image" src="../icons/envelope-solid.svg" alt="Email"/>Email: <a class="social-text" href="mailto:beckettjenen123@gmail.com">beckett@gmail</a></li>
 			<li><img class="social-image" src="../icons/github.svg" alt="GitHub"/><p class="social-text">GitHub: <a href="https://github.com/Dr-N0" target="_blank">@Dr-N0</a></p></li>
 			<li><img class="social-image" src="../icons/linkedin.svg" alt="LinkedIn"/><p class="social-text">LinkedIn: <a href="https://www.linkedin.com/in/beckettjenen" target="_blank">Beckett Jenen</a></p></li>
 		</ul>
-
+	</section>
+	<section>
 		<h1>Experience</h1>
 		<p>If you would prefer to view my resume, you can find that
 			<a id="blue-url" href={`https://resume.com`} target="_blank">here</a>
@@ -60,7 +62,7 @@
 							companyName: job.companyName,
 							companyWebsite: job.companyWebsite,
 							jobTitle: job.jobTitle,
-							photoSrc: `https://s3.csh.rit.edu/lontronix-website/${job.photoSrc}`
+							// photoSrc: `https://s3.csh.rit.edu/lontronix-website/${job.photoSrc}`
 						}
 					}
 				>
@@ -70,7 +72,8 @@
 				</Experience>
 			{/each}
 		</div>
-
+	</section>
+	<section>
 		<h3>Some work I've done on my own:</h3>
 		<div>
 			{#each projects.programs as proj}
@@ -80,7 +83,7 @@
 							projectName: proj.projectName,
 							projectLink: proj.projectLink,
 							projectSkills: proj.projectSkills,
-							photoSrc: `https://s3.csh.rit.edu/lontronix-website/${proj.photoSrc}`
+							// photoSrc: `https://s3.csh.rit.edu/lontronix-website/${proj.photoSrc}`
 						}
 					}
 				>
@@ -90,10 +93,38 @@
 				</Projects>
 			{/each}
 		</div>
+	</section>
 	</div>
 </main>
 
 <style>
+
+	.slide-to-the-left {
+		animation: slide-in-l 0.7s both;
+	}
+
+	.slide-to-the-right {
+		animation: slide-in-r 0.7s both;
+	}
+
+	@keyframes slide-in-l {
+		0% {
+			transform: translateX(-1000px);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+
+	@keyframes slide-in-r {
+		0% {
+			transform: translateX(1000px);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+
 	.social-image, .social-text {
 		vertical-align: middle;
 		display: inline-block;
